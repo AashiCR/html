@@ -1,0 +1,344 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #022f5f;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;     align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Contact{
+    background-color: #ffeb3b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #022f5f; 
+    color: white;
+    padding: 20px;
+}
+
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.banner-content .text {
+    flex: 1;
+}
+
+.banner-content .text p:first-child {
+    font-weight: bold;
+}
+
+
+.header-button {
+    background-color: yellow;
+    color: black; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+
+.header-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+}
+
+
+.find-finance-button {
+    background-color: yellow;
+    color: black; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    position: relative; 
+    border-radius: 20px; 
+}
+
+
+.find-finance-button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: black; 
+}
+
+
+.line-after-button {
+    width: 50%; 
+    height: 2px; 
+    background-color: black; 
+    margin-top: 10px; 
+}
+
+.banner-content .banner-image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.banner-content .banner-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.about {
+    background-color: white; 
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+
+.about-content p {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.about-content strong {
+    font-weight: bold; 
+    margin-right: 20px; 
+}
+
+
+.about-content p span {
+    font-weight: bold;
+    margin-right: 5px; 
+    color: #022f5f;
+}
+
+.meet-the-team {
+    background-color: #022f5f;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.meet-the-team h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.section-divider {
+    width: 50px;
+    border: 2px solid #fff;
+    margin: 0 auto 20px;
+}
+
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.team-content {
+    flex: 1;
+    max-width: 800px;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.team-photo {
+    flex: 1; 
+    padding-right: 20px;
+}
+
+
+.team-photo {
+    flex: 1; 
+    padding-right: 20px; 
+    text-align: left; 
+}
+
+
+
+.team-member-name {
+    color: #ffeb3b;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+.team-member-description {
+    margin: 10px 0;
+}
+
+
+.contact {
+    background-color: #022f5f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #fff; 
+}
+
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+
+.left-content {
+    flex: 1; 
+    text-align: left; 
+}
+
+
+.right-content {
+    flex: 1; 
+    text-align: right; 
+}
+
+.contact p {
+    margin: 0;
+}
+
+.contact i {
+    margin-right: 5px; 
+}
+
+
+.contact-button {
+    background-color: #ffeb3b;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-left: 0; 
+}
+
+
+
+.contact-button:hover {
+    background-color: #ffc107; 
+}
+
+
+.company-info {
+    background-color: #022f5f; 
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    margin-top: 20px; 
+    border: 1px solid #ccc; 
+}
+
+
+.company-left,
+.company-right {
+    flex: 1;
+    text-align: center; 
+    padding: 10px; 
+}
+
+.company-left h3,
+.company-right h3 {
+    color: #ffeb3b; 
+    margin-top: 0;
+}
+
+.company-left ul,
+.company-right ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-left ul li,
+.company-right ol li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #022f5f;
+    color: #fff;
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.right-align {
+    text-align: right;
+}
+
+
+
